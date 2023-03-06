@@ -1,0 +1,40 @@
+// LAYOUT
+
+$mobile: 375px;
+$desktop: 1440px;
+
+// COLORS
+
+$Light-red: hsl(0, 100%, 67%);
+$Light-red-opacity: hsl(0, 100%, 67%, .1);
+$Orangey-yellow: hsl(39, 100%, 56%);
+$Orangey-yellow-opacity: hsl(39, 100%, 56%, .1);
+$Green-teal: hsl(166, 100%, 37%);
+$Green-teal-opacity: hsl(166, 100%, 37%, .1);
+$Cobalt-blue: hsl(234, 85%, 45%);
+$Cobalt-blue-opacity: hsl(234, 85%, 45%, .1);
+
+// ** gradients **
+
+$Light-slate-blue: hsl(252, 100%, 67%);
+$Light-royal-blue: hsl(241, 81%, 54%);
+$Violet-blue-light: hsla(256, 72%, 46%, .5);
+$Violet-blue-dark: hsla(256, 72%, 35%, .5);
+$Violet-blue: hsla(256, 72%, 46%, 1);
+$Persian-blue: hsla(241, 72%, 46%, 0);
+
+// ** neutral **
+
+$white: hsl(0, 0%, 100%);
+$Pale-blue: hsl(221, 100%, 96%);
+$Light-lavender: hsl(241, 100%, 89%);
+$Dark-gray-blue: hsl(224, 30%, 27%);
+
+
+// TYPOGRAPHY
+
+$size-main: 1.8rem;
+
+// ** font **
+
+$font-main: 'Hanken Grotesk', sans-serif;

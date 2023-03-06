@@ -1,0 +1,92 @@
+@use 'variables' as v;
+
+.card__summary {
+    padding: 3rem;
+
+    display: grid;
+    row-gap: 1rem;
+}
+
+.card__summary_title {
+    opacity: .8;
+    font-size: 1.8rem;
+}
+
+.card_summary_grid {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.card__summary__grid__item {
+    padding: 1rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.card__summary__grid__item__icon {
+    display: flex;
+}
+
+.card__summary__grid__item__icon img {
+    margin-right: 1rem;
+}
+
+.card__summary__grid__item:nth-child(1) {
+    background-color: v.$Light-red-opacity;
+}
+
+.card__summary__grid__item:nth-child(2) {
+    background-color: v.$Orangey-yellow-opacity;
+}
+
+.card__summary__grid__item:nth-child(3) {
+    background-color: v.$Green-teal-opacity;
+}
+
+.card__summary__grid__item:nth-child(4) {
+    background-color: v.$Cobalt-blue-opacity;
+}
+
+.card__summary__grid__item:nth-child(1) .card__summary__grid__item__icon {
+    color: v.$Light-red;
+}
+
+.card__summary__grid__item:nth-child(2) .card__summary__grid__item__icon {
+    color: v.$Orangey-yellow;
+}
+
+.card__summary__grid__item:nth-child(3) .card__summary__grid__item__icon {
+    color: v.$Green-teal;
+}
+
+.card__summary__grid__item:nth-child(4) .card__summary__grid__item__icon {
+    color: v.$Cobalt-blue;
+}
+
+.card__summary__grid__item__number {
+    opacity: .5;
+}
+
+.card__summary__botton {
+    background-color: v.$Dark-gray-blue;
+    color: v.$white;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 2.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-image: linear-gradient(to bottom,v.$Light-slate-blue 1%, v.$Violet-blue-light 50%);
+    }
+}
+
+@media (min-width:650px) {
+    .card__summary__botton {
+        padding: 1rem 1.5rem;
+    }
+}

@@ -1,0 +1,57 @@
+@use 'variables' as v;
+
+.card__result {
+    background-color: v.$Violet-blue;
+    padding: 4rem 5.5rem;
+    border-radius: 3rem;
+
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__result__title {
+    color: v.$Light-lavender;
+    font-size: v.$size-main;
+}
+
+.card__result_circle {
+    text-align: center;
+    width: 13rem;
+    height: 13rem;
+    background-image: linear-gradient(to bottom,v.$Violet-blue-dark 10%, v.$Violet-blue-light 100%);
+    border-radius: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__result_circle__main {
+    color: v.$white;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.card__result_circle__secondary {
+    color: v.$Light-lavender;
+    opacity: .7;
+    font-size: 1.5rem;
+}
+
+.card__result__score {
+    text-align: center;
+}
+
+.card__result__score__secondaryTitle {
+    color: v.$white;
+    margin-bottom: 1rem;
+}
+
+.card__result__score__text {
+    color: v.$Light-lavender;
+    font-size: 1.5rem;
+}
